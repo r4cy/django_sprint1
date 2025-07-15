@@ -18,24 +18,24 @@ git clone <адрес_репозитория>
 cd blogicum
 ```
 
-Создайте и активируйте виртуальное окружение:
+2. **Создайте и активируйте виртуальное окружение**:
 ```bash
 python -m venv venv
 source venv/bin/activate      # для Linux/MacOS
 venv\Scripts\activate         # для Windows
 ```
 
-Установите зависимости:
+3. **Установите зависимости**:
 ```bash
 pip install -r requirements.txt
 ```
 
-Примените миграции:
+4. **Примените миграции**:
 ```bash
 python manage.py migrate
 ```
 
-Запустите сервер разработки:
+5. **Запустите сервер разработки**:
 ```bash
 python manage.py runserver
 ```
